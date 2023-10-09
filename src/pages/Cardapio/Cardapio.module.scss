@@ -1,0 +1,38 @@
+@import "../../styles/variaveis.scss";
+
+
+.nav {
+  background-color: $light;
+}
+
+.header {
+ background-color: $dark; //não achei nenhuma imagem legal pra por
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  .slogan {
+    color: $light;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 4rem;
+  }
+}
+
+.cardapio {
+  padding: 3vw;
+  &__titulo {
+    color: $dark;
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  &__filtros {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
